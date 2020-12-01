@@ -91,14 +91,13 @@ print ("\n We adopt the embedded representation with matrix A on the left and th
 PrintEmbedded(A,B)
 
 
-
 # -------------------------------------------
 # DO NOT CHANGE ANYTHING ABOVE THIS LINE
 # -------------------------------------------
 
 # Below you write your code including
 # Comment on the manipulated rows using print operation
-print("\n\n Subtraction of raw_1 from row_0, i.e., row_0 = row_0 - row_1\n")
+print("\n\n Subtraction of raw_2 from row_1, i.e., row_1 = row_1 - row_2\n")
 
 # apply function SubtractRows to manipulate A and B accordingly
 
@@ -106,6 +105,30 @@ SubtractRows(0,1,A)
 SubtractRows(0,1,B)
 
 # apply function PrintEmbedded to print the current content of embedded A and B
+PrintEmbedded(A,B)
+
+
+
+print("\n\n Subtraction of raw_3 from row_2, i.e., row_2 = row_2 - row_3\n")
+
+SubtractRows(1,2,A)
+SubtractRows(1,2,B)
+
+PrintEmbedded(A,B)
+
+
+print("\n\n Subtraction of raw_4 from row_3, i.e., row_3 = row_3 - row_4\n")
+
+SubtractRows(2,3,A)
+SubtractRows(2,3,B)
+
+PrintEmbedded(A,B)
+
+print("\n\n Subtraction of raw_5 from row_4, i.e., row_4 = row_4 - row_5\n")
+
+SubtractRows(3,4,A)
+SubtractRows(3,4,B)
+
 PrintEmbedded(A,B)
 
 # -------------------------------------------
